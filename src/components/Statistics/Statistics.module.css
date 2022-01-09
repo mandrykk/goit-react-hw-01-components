@@ -1,0 +1,32 @@
+.statistics {
+  margin: auto;
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  padding-top: 30px;
+}
+
+.statList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255 109 122);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.statListItem {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 10px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
